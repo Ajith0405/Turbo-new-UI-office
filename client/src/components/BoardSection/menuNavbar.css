@@ -1,0 +1,17 @@
+.menu_navbar_main{
+    width: 100%;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+.menu_navbar_left{
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+}
+.css-1aquho2-MuiTabs-indicator{
+    height: 2.5px !important;
+    border-radius: 10px;
+
+}

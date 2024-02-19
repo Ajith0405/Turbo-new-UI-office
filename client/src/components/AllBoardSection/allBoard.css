@@ -1,0 +1,9 @@
+.card_board{
+    min-width: 150px;
+    max-width: 150px;
+   background-color: lightgray;
+}
+.card_board:hover{
+    background-color: gray;
+    color: white;
+}

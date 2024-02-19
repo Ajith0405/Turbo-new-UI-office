@@ -1,0 +1,29 @@
+.notification_icon{
+    transform: rotate(30deg);
+    padding: 5px;
+    border-radius: 25px;
+}
+.notification_icon:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.helpout_icon{
+    padding: 5px;
+    border-radius: 25px;
+}
+.helpout_icon:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.user_avatar_logo{
+    padding: 10px;
+    border-radius: 25px;
+}
+.user_avatar_logo:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+

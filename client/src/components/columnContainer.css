@@ -1,0 +1,153 @@
+.main_column{
+    /* background-color: #f1f2f4; */
+    width: 270px;
+    min-width: 270px;
+    max-width: 290px;
+    /* max-height: 460px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+}
+.main_column_overley{
+    background-color: blue;
+    width: 270px;
+    min-width: 270px;
+    max-height: 460px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.column_header:hover{
+    cursor: pointer;
+}
+.column_more_button{
+    padding: 5px;
+
+}
+.column_more_button:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.column_content{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 2px;
+    min-height: 50px;
+    max-height: 360px;
+   
+}
+
+
+.add_card_button{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: lightgray
+}
+.add_button{
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.add_card_button:hover{
+    background-color: gray;
+}
+.column_title_input{
+    background-color: white;
+    padding-left: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #0055CC;
+}
+.save_edit_btn{
+    position: relative;
+    top: 35px;
+    right: 200px;
+}
+.title_save_button{
+    background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+  padding: 0 5px 0 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 50px;
+}
+.title_save_button:hover{
+    background-color: #f7fafa;
+}
+.title_cancel_button{
+    background-image: linear-gradient(#f7f8fa ,#e7e9ec);
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: rgba(255,255,255,.6) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 14px;
+    height: 25px;
+    font-size: 13px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 11px;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    width: 70px;
+}
+.title_cancel_button:hover{
+    border-color: white;
+    background-color: white;
+}
+.column_title{
+    cursor: text;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+.column_title::first-letter{
+    text-transform: capitalize;
+}
+.column_title_add_btn{
+    color: black;
+    margin-right: 10px;
+}

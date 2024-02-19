@@ -1,0 +1,127 @@
+.board_icon{
+    transform: rotate(180deg);
+}
+
+.downArrow_icon:hover{
+    background-color: gray;
+    cursor: pointer;
+    color: gray;
+}
+.rocket_icon{
+    padding: 5px;
+    border-radius: 3px;
+}
+.rocket_icon:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+}
+.thunder_icon{
+    padding: 5px;
+    border-radius: 3px;
+}
+.thunder_icon:hover{
+    background-color:lightgray;
+    cursor: pointer;
+    color: black;
+}
+.filter_btn{
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+.filter_btn:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+}
+.partation{
+    height: 20px;
+    border-right: 1px solid darkgray;
+    margin-left: 10px;
+    margin-right: 8px;
+}
+.start_bord_icon{
+    padding: 5px;
+    border-radius: 3px;
+}
+.start_bord_icon:hover{
+    background-color:lightgray;
+    cursor: pointer;
+    color: black;
+}
+.group_icon{
+    padding: 5px;
+    border-radius: 3px;
+}
+.group_icon:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+}
+.board_icon_name{
+    opacity: 0.8;
+}
+.board_icon_name:hover{
+    background-color: gray;
+    color: white;
+    opacity: 1.0;
+    cursor: pointer;
+}
+.user_avatar_logo{
+    padding: 10px;
+    border-radius: 25px;
+}
+.user_avatar_logo:hover{
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+}
+.share_icon{
+    opacity: 0.8;
+}
+.share_icon:hover{
+    opacity: 1.0;
+    cursor: pointer;
+}
+.more_button_div{
+    display: flex;
+    align-items: center;
+}
+.more_button{
+    padding: 5px;
+    border-radius: 3px;
+}
+.more_button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    color: black;
+}
+.board_title_edit{
+    outline: none;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    color: black;
+}
+.back_button:hover{
+    background-color: gray !important;
+
+}
+.back_button_arrow:hover{
+    color: black;
+}
+
+@media only screen and (max-width: 576px) {
+    .board_title {
+      font-size: 10px; 
+    }
+  }
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .board_title {
+      font-size: 12px; 
+    }
+  }
+  @media only screen and (min-width: 993px) {
+    .board_title {
+      font-size: 18px; 
+    }
+  }
